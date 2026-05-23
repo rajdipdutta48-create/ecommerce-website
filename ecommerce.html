@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyStore</title>
+    <link rel="stylesheet" href="Ecommerce.css">
+</head>
+<body>
+
+    <header>
+        <h1>MyStore</h1>
+        <button id="cart-btn">Cart (<span id="cart-count">0</span>)</button>
+    </header>
+
+    <section class="products" id="product-list"></section>
+
+    <div class="cart hidden" id="cart">
+        <h2>Your Cart</h2>
+        <div id="cart-items"></div>
+        <h3>Total: ₹<span id="total-price">0</span></h3>
+        <button onclick="closeCart()">Close</button>
+    </div>
+
+<script src="Ecommerce.js"></script>
+</body>
+</html>
